@@ -1,0 +1,8 @@
+{
+  "name": "Bauhaus Techno Vision",
+  "description": "A generative audiovisual experience combining camera input, techno synthesis, and AI-driven imagery in a Bauhaus style.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
