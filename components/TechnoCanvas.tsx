@@ -223,8 +223,8 @@ const TechnoCanvas: React.FC<Props> = ({ audioEngine, isPlaying, currentPitch })
                 // Draw image centered at (0,0) which is mapped to (echo.x, echo.y)
                 // Use a fixed aspect ratio sizing or fill screen?
                 // Let's keep it roughly screen-sized but scaling down
-                const w = echo.width * 0.8; 
-                const h = echo.height * 0.8;
+                const w = echo.width * 1.1; 
+                const h = echo.height * 1.1;
                 
                 ctx.drawImage(echo.image, -w/2, -h/2, w, h);
                 
